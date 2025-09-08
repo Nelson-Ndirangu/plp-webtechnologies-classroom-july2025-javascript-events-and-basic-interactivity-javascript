@@ -1,5 +1,5 @@
 // Tabs with active state indication
-let tabs = document.querySelectorAll('.tab');
+let tabs = document.querySelectorAll('.tablinks');
 tabs.forEach(tab => {
     tab.addEventListener('click', function() {
         tabs.forEach(t => t.classList.remove('active'));    
