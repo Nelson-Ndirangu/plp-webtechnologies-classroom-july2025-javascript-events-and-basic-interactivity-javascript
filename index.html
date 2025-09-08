@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Assign</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Tabs with active state indicator -->
+        <div>
+            <h2>Tabs Example</h2>
+            <div class="tab">
+                <button class="tablinks">Home</button>
+                <button class="tablinks">Services</button>
+                <button class="tablinks">Contact</button>
+            </div>
+
+        </div>
+    <div>
+       
+        <!-- Button for light and dark mode -->
+        <button id="toggleThemeBtn">Toggle Light/Dark Mode</button>
+    </div>
+    
+    <!-- Forms -->
+    <div>
+        <h2>Contact us!</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" ><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" ></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <br>
+    <!--  --An accordion -->
+    <div>
+        <h2>Frequently Asked Questions</h2>
+        <button class="accordion">What is your return policy?</button>
+        <div class="panel">
+            <p>Our return policy lasts 30 days...</p>
+        </div>
+
+        <button class="accordion">How do I track my order?</button>
+        <div class="panel">
+            <p>You can track your order using the tracking number...</p>
+        </div>
+
+        <button class="accordion">Do you offer customer support?</button>
+        <div class="panel">
+            <p>Yes, we offer 24/7 customer support...</p>
+        </div>
+    </div>
+    <br>
+            <!-- Countdown Timer -->
+        <h2>Countdown to New Year!</h2>
+        <div id="countdown">
+            <span id="days">00</span> Days 
+            <span id="hours">00</span> Hours 
+            <span id="minutes">00</span> Minutes 
+            <span id="seconds">00</span> Seconds
+        </div>
+
+        
+    <!-- js -->
+   <script src="scripts .js"></script>
+</body>
+</html>
